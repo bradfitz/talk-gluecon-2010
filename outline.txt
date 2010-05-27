@@ -1,0 +1,23 @@
+WebFinger
+
+APIs vs protocols.
+Decentralized social networking
+
+finger... read.  security problems.
+web took over.
+
+emails are write-only identifiers
+
+business card
+
+smtp vs smtp2
+identity server,
+capability server,
+other services,
+avatar photo,
+is it a JID?  speak XMPP?
+explictly don't support SMTP?
+explictly don't have public metadata, just pointer to auth-required endpoint?
+
+protocol, dns...
+
