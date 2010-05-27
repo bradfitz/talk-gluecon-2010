@@ -1,0 +1,11 @@
+service finger
+{
+        type            = UNLISTED
+        socket_type     = stream
+        protocol        = tcp
+        wait            = no
+        user            = nobody
+        server          = /usr/local/bin/fingerd.pl
+        port            = 79
+        id              = fingerd-stream
+}

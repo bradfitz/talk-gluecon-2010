@@ -1,0 +1,11 @@
+service webfinger
+{
+        type            = UNLISTED
+        socket_type     = stream
+        protocol        = tcp
+        wait            = no
+        user            = nobody
+        server          = /usr/local/bin/fingerd.pl
+        port            = 8080
+        id              = webfingerd-stream
+}
